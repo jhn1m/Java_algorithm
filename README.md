@@ -1,3 +1,3 @@
-<h2>Space for Java Algorithm exam practice<h2>
+Space for Java Algorithm exam practice
 
-<p>special thanks for https://www.acmicpc.net/<p>
+Source of all example, special thanks for https://www.acmicpc.net/
