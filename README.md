@@ -1,1 +1,1 @@
-# Homework_Java
+# Space for Java Algorithm exam practice
