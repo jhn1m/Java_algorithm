@@ -1,4 +1,4 @@
-public class ArrayPassingEx {
+public class ArrayPassing {
     static void replaceSpace(char a[]) {
         for (int i = 0; i < a.length; i++) {
             if (a[i] == ' ')
