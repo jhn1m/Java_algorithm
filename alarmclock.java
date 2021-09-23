@@ -42,7 +42,6 @@ public class Main {
             } else {
                 System.out.println("시간을 다시 입력해주세요..");
             }
-
             sc.close();
         }
     }
