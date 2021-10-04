@@ -19,7 +19,7 @@ public class Main {
                  * 
                  * c = (a * 60) + b; d = c / 60; e = c % 60;
                  */
-                // 입력받은 값이 정확한 지 테스트 하는 출력구문
+                // 입력받은 값이 정확한 지 테스트 하는 출력구문 
                 // System.out.println("입력받은 값을 분으로 치환한 값은 " + c + " 입니다.");
                 // System.out.println(c + " 를 시간으로 치환한 값은 " + d + " 입니다.");
                 // System.out.println(c + " 를 분으로 치환한 값은 " + e + " 입니다.");
