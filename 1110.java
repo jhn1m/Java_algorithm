@@ -1,12 +1,26 @@
-Scanner sc = new Scanner(System.in);
-        int i = 0;
-        int n = sc.nextInt();
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int N1, N2, N3;
+        int New_num = N;
+        int cycle = 0;
+
         while (true) {
-            if (n >= 0 && n <= 99) {
-                n = (n % 10) + (n / 10);
-                n = ((n % 10) * 10) + n;
-            } else if (n < 10) {
-                n = n * 10;
-            }
-            i++;
+            N1 = New_num / 10;
+            N2 = New_num % 10;
+            N3 = N1 + N2;
+
+            New_num = (N2 * 10) + (N3 % 10);
+            cycle++;
+
+            if (N == New_num)
+                break;
             sc.close();
+
+        }
+        System.out.print(cycle);
+    }
+}
