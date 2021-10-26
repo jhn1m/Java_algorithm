@@ -37,3 +37,29 @@ class Main {
         }
     }
 }
+
+        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        // StringTokenizer st;
+        // int ArrayNum = Integer.parseInt(br.readLine());
+        // int[] list = new int[ArrayNum];
+        // int i, k, j, temp;
+        // st = new StringTokenizer(br.readLine());
+        // for (i = 0; i < st.countTokens(); i++) {
+        // list[i] = Integer.parseInt(st.nextToken());
+        // }
+        // for (k = ArrayNum - 1; k > 0; k--) {
+        // for (j = 0; j < k; j++) {
+        // if (list[j] > list[j + 1]) {
+        // temp = list[j];
+        // list[j] = list[j + 1];
+        // list[j + 1] = temp;
+        // }
+
+        // }
+
+        // }
+        // int min = list[0];
+        // int max = list[ArrayNum];
+        // System.out.print(min + " ");
+        // System.out.print(max);
