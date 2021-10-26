@@ -2,6 +2,19 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] N = new int[n];
+
+        if (N.length >= 1 && N.length <= 1000000) {
+            for (int i = 0; i < N.length; i++) {
+                N[i] = sc.nextInt();
+            }
+            Arrays.sort(N);
+
+            System.out.print(N[0] + " ");
+            System.out.print(N[N.length - 1] + " ");
+        /*
         try {
 
             Scanner sc = new Scanner(System.in);
@@ -35,6 +48,7 @@ class Main {
         } catch (Exception e) {
             System.out.print("에러 :" + e);
         }
+        */
     }
 }
 
