@@ -47,6 +47,42 @@ public class Main {
     }
 }
 
+/* 22_01_04
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int caseCnt = sc.nextInt();
+        String[] arr = new String[caseCnt];
+        int OCnt = 0;
+        int OSum = 0;
+        int ORes = 0;
+
+        for (int i = 0; i < caseCnt; i++) {
+            arr[i] = sc.next();
+        }
+        sc.close();
+        for (int i = 0; i < caseCnt; i++) {
+            for (int j = 0; i < arr[i].length(); j++) {
+                if (arr[i].substring(j).equals("O")) {
+                    while (true) {
+                        OCnt += 1;
+                        OSum += OCnt;
+                        ORes = OSum;
+                    }
+                } else {
+                    OCnt = 0;
+                    OSum = 0;
+                }
+            }
+            System.out.println(ORes);
+        }
+    }
+}
+
+*/
+
 /*
 public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
