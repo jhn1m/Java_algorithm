@@ -1,14 +1,3 @@
-/* 
-Given n integers, write a function to find the sum of n.
-
-The functions to be written are as follows.
-
-Java: long sum(int[]a); (class name: Test)
-
-a: An array in which n integers need to be summed are stored (0 na[i] 개가1,000,000 and 1 정수n 3,0003,000,000).
-
-Given n integers, write a function to find the sum of n.
- */
 public class Test {
     long sum(int[] a) {
         long ans = 0;
