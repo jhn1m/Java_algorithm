@@ -1,16 +1,3 @@
-/*
-problem
-When there are two natural numbers A and B, A%B is the remainder of A divided by B. For example, the remainder obtained by dividing 7, 14, 27, and 38 by 3 is 1, 2, 0, 2. 
-
-After receiving 10 inputs, the remainder divided by 42 is obtained. Then write a program that outputs how many different values there are.
-
-Input
-Numbers from the first line to the tenth line are given one per line. This number is less than or equal to 1,000 and is a nonnegative integer.
-
-Output
-In the first line, when divided by 42, output how many different remainings are.
-*/
-
 import java.util.Scanner;
 import java.util.Arrays;
 
