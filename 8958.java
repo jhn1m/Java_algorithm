@@ -2,6 +2,44 @@ import java.util.Scanner;
 
 class Main {
 
+    static int scoreOutput(String OX) {
+        String[] OXArr = OX.split("");
+        int sum = 0;
+        int cnt = 0;
+        for (int i = 0; i < OXArr.length; i++) {
+            if (OXArr[i].equals("O")) {
+                ++cnt;
+                sum += cnt;
+            } else {
+                cnt = 0;
+            }
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        String[] arr = new String[n];
+        int[] arrResult = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.next();
+            arrResult[i] = scoreOutput(arr[i]);
+        }
+
+        for (int i = 0; i < arrResult.length; i++) {
+            System.out.println(arrResult[i]);
+        }
+    }
+}
+
+/*
+import java.util.Scanner;
+
+class Main {
+
     static Scanner sc = new Scanner(System.in);
     static int testCaseNum = 0;
     static int testCaseScore = 0;
@@ -63,3 +101,4 @@ class Main {
 
     }
 }
+*/
