@@ -1,3 +1,7 @@
+/**
+@version 1.0 11달 전 작성
+*/
+/*
 import java.util.Scanner;
 
 public class Test {
@@ -18,5 +22,28 @@ public class Test {
             }
             System.out.print(i);
         }
+    }
+}
+*/
+
+import java.util.Scanner;
+
+class Main {
+
+    static void breakPoint(Long a, Long b, Long c) {
+        if (c <= b) {
+            System.out.println(-1);
+        } else {
+            System.out.print((a / (c - b)) + 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Long a = sc.nextLong();
+        Long b = sc.nextLong();
+        Long c = sc.nextLong();
+
+        breakPoint(a, b, c);
     }
 }
